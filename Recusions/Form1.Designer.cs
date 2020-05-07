@@ -41,10 +41,10 @@
             this.scrambleInput = new System.Windows.Forms.TextBox();
             this.scrambleButton = new System.Windows.Forms.Button();
             this.scrambleOutput = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.number1Label = new System.Windows.Forms.Label();
+            this.number2Label = new System.Windows.Forms.Label();
+            this.facLabel = new System.Windows.Forms.Label();
+            this.stringLabel = new System.Windows.Forms.Label();
             this.lineLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -167,44 +167,44 @@
             this.scrambleOutput.TabIndex = 11;
             this.scrambleOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // number1Label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 173);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 19);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Number 1";
+            this.number1Label.AutoSize = true;
+            this.number1Label.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.number1Label.Location = new System.Drawing.Point(36, 173);
+            this.number1Label.Name = "number1Label";
+            this.number1Label.Size = new System.Drawing.Size(71, 19);
+            this.number1Label.TabIndex = 12;
+            this.number1Label.Text = "Number 1";
             // 
-            // label2
+            // number2Label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(36, 203);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 19);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Number 2";
+            this.number2Label.AutoSize = true;
+            this.number2Label.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.number2Label.Location = new System.Drawing.Point(36, 203);
+            this.number2Label.Name = "number2Label";
+            this.number2Label.Size = new System.Drawing.Size(71, 19);
+            this.number2Label.TabIndex = 13;
+            this.number2Label.Text = "Number 2";
             // 
-            // label3
+            // facLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 52);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 19);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Factorial";
+            this.facLabel.AutoSize = true;
+            this.facLabel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.facLabel.Location = new System.Drawing.Point(36, 52);
+            this.facLabel.Name = "facLabel";
+            this.facLabel.Size = new System.Drawing.Size(60, 19);
+            this.facLabel.TabIndex = 14;
+            this.facLabel.Text = "Factorial";
             // 
-            // label4
+            // stringLabel
             // 
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(39, 309);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 46);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "String (max 4)";
+            this.stringLabel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stringLabel.Location = new System.Drawing.Point(39, 309);
+            this.stringLabel.Name = "stringLabel";
+            this.stringLabel.Size = new System.Drawing.Size(67, 46);
+            this.stringLabel.TabIndex = 15;
+            this.stringLabel.Text = "String (max 4)";
             // 
             // lineLabel
             // 
@@ -220,10 +220,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 554);
             this.Controls.Add(this.lineLabel);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.stringLabel);
+            this.Controls.Add(this.facLabel);
+            this.Controls.Add(this.number2Label);
+            this.Controls.Add(this.number1Label);
             this.Controls.Add(this.scrambleOutput);
             this.Controls.Add(this.scrambleButton);
             this.Controls.Add(this.scrambleInput);
@@ -258,10 +258,10 @@
         private System.Windows.Forms.TextBox scrambleInput;
         private System.Windows.Forms.Button scrambleButton;
         private System.Windows.Forms.Label scrambleOutput;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label number1Label;
+        private System.Windows.Forms.Label number2Label;
+        private System.Windows.Forms.Label facLabel;
+        private System.Windows.Forms.Label stringLabel;
         private System.Windows.Forms.Label lineLabel;
     }
 }
